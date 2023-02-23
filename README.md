@@ -14,4 +14,4 @@ Network layer for creating different set of network requests like GET, POST, PUT
 
 [Async location streamer](https://github.com/The-Igor/async-http-client)
 
- ![simulate locations](https://github.com/The-Igor/d3-async-location/blob/main/img/image11.gif) 
+ ![Http requests](https://github.com/The-Igor/async-http-client-example/blob/main/async-http-client-example/img/image11.gif) 
