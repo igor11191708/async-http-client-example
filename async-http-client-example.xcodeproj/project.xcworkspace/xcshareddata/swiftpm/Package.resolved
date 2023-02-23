@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "async-http-client",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Igor/async-http-client",
+      "state" : {
+        "branch" : "main",
+        "revision" : "be4111f57df1ee4ca11a37fdd1fb785e54f600c7"
+      }
+    }
+  ],
+  "version" : 2
+}
