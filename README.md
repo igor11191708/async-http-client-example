@@ -12,6 +12,8 @@ Network layer for creating different set of network requests like GET, POST, PUT
 
 ## SwiftUI example for package
 
-[Async location streamer](https://github.com/The-Igor/async-http-client)
+[Http async client](https://github.com/The-Igor/async-http-client)
 
+
+## Http requests
  ![Http requests](https://github.com/The-Igor/async-http-client-example/blob/main/async-http-client-example/img/image11.gif) 
