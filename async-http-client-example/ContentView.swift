@@ -36,7 +36,7 @@ struct ContentView: View {
     func doGet() async{
         do{
             let data = try await model.get(path: "user")
-            print(data.value, data.urlRequest.httpMethod)
+            print(data.value)
         }
         catch{ print(error) }
     }
@@ -44,7 +44,7 @@ struct ContentView: View {
     func doPost() async{
         do{
             let data = try await model.post(path: "user")
-            print(data.value, data.urlRequest.httpMethod)
+            print(data.value)
         }
         catch{ print(error) }
     }
@@ -52,7 +52,7 @@ struct ContentView: View {
     func doPostWithMetrics() async{
         do{
             let data = try await model.postWithMetrics(path: "user")
-            print(data.value, data.urlRequest.httpMethod)
+            print(data.value)
         }
         catch{ print(error) }
     }
@@ -60,7 +60,7 @@ struct ContentView: View {
     func doPut() async{
         do{
             let data = try await model.put(path: "user")
-            print(data.value, data.urlRequest.httpMethod)
+            print(data.value)
         }
         catch{ print(error) }
     }
@@ -68,7 +68,7 @@ struct ContentView: View {
     func doDelete() async{
         do{
             let data = try await model.delete(path: "user")
-            print(data.value, data.urlRequest.httpMethod)
+            print(data.value)
         }
         catch{ print(error) }
     }
