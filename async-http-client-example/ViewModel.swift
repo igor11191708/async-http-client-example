@@ -13,7 +13,7 @@ final class ViewModel : ObservableObject{
     let http = Http.Proxy(baseURL: URL(string: "http://localhost:3000")!)
     
     func get(path: String) async throws -> Http.Response<[User]>{
-        try await http.get(path: path)
+        try await http.get(path: path, retry: 5)
     }
     
     func postWithMetrics(path: String) async throws -> Http.Response<[User]>{
