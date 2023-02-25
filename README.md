@@ -3,6 +3,7 @@
 Network layer for creating different set of network requests like GET, POST, PUT, DELETE etc customizable with coders
 
 ## Features
+- [x] Multiplatform
 - [x] Stand alone package without any dependencies using just Apple's  facilities
 - [x] Customizable for different requests schemes from classic **CRUD Rest** to what suits to you
 - [x] Customizable in term of session
